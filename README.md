@@ -1,5 +1,8 @@
-# ChatGPT-API
+#Taskfier : Task creation for managers by Ai 
 
-هذا المشروع هو مشروع تابع لمقطع chat gpt api في أكاديمية ترميز على اليوتيوب.
 
-[![Chat GPT Copy 2](https://user-images.githubusercontent.com/29100623/224706621-14f13882-a92b-40e1-bfe6-588cd6fec42d.png)](https://youtu.be/-RKwo0BSYL0)
+A system that uses the GPT chat concept to suggest tasks
+to the team with the addition of a motivational factor and notices by emails using the gamification methodology, in addition to suggestions for how to accomplish the tasks
+
+
+
