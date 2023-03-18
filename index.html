@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskfier</title>
+
+    <!-- STYLES -->
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div id="main-container">
+
+
+        <div>
+            <br>
+            <img src="Taskfier.png" width="100" height="100" >
+           
+        </div>
+
+        <div id="main-content">
+            <input id="task-input" type="text" placeholder="المهمة: (بناء موقع) "  size="20">
+            <input id="teams-input" type="text" placeholder="الفرق: (المالية، المبرمجين) "  size="30">
+
+            <input type="date" id="date-input" >
+
+
+
+            <button id="submit-btn">إرسال</button>
+        </div>
+
+        <div id="reply-content">
+           <ul>
+               الفريق ١
+               <ul>مهمة ١ قبل التاريخ ...</ul>
+               <ul>مهمة ٢ قبل التاريخ ...</ul>
+               <ul>مهمة ٣ قبل التاريخ ...</ul>
+
+               
+           </ul>
+           <ul>
+            الفريق ٢
+            <ul>مهمة ١ قبل التاريخ ...</ul>
+            <ul>مهمة ٢ قبل التاريخ ...</ul>
+            <ul>مهمة ٣ قبل التاريخ ...</ul>
+
+            
+        </ul>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+<!-- AXIOS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+<script src="index.js"></script>
+
+</html>
